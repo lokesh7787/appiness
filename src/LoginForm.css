@@ -1,0 +1,45 @@
+.loginForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  height: 100vh;
+  width: 90%;
+}
+
+.item {
+  align-self: center;
+  box-shadow: 0 14px 28px rgb(0 0 0 / 25%);
+  border-radius: 5px;
+  padding: 5%;
+  width: 30%;
+}
+.LoginButton {
+  margin: 15px 0px 5px 0px;
+  border-radius: 20px;
+  border: 1px solid #ff4b2b;
+  background-color: #ff4b2b;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 45px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+input {
+  background-color: #eee;
+  border: none;
+  padding: 12px 5px;
+  margin: 8px 0;
+  width: 100%;
+}
+
+.LoginButton:hover {
+  background-color: aqua;
+  color: black;
+  border-color: whitesmoke;
+}
+p {
+  color: red;
+  font-size: smaller;
+}
